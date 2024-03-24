@@ -8,7 +8,7 @@ class Rectangle:
     def area(self):
         return (self.length*self.breadth)
     def perimeter(self):
-        return 2*(self.length*self.breadth)
+        return 2*(self.length+self.breadth)
 l = int (input("Enter the length of the Rectangle: "))
 b = int (input("Enter the breadth of rectangle: "))
 r1 = Rectangle(l , b)
