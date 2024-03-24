@@ -5,4 +5,4 @@ def file_read(fname):
             content_array.append(line.strip())
     print(content_array)
 
-file_read('text.txt')
+file_read('example.txt')

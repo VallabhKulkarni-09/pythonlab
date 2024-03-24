@@ -4,7 +4,7 @@ from tkinter import ttk
 window = Tk()
 window.title("Student Registration Form")
 window.geometry('300x200')
-window.configure(background="grey")
+window.configure(background="lightblue")
 
 a = Label(window, text="First Name").grid(row=0, column=0)
 b = Label(window, text="Last Name").grid(row=1, column=0)
